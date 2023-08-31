@@ -60,3 +60,43 @@ th:nth-child(3) a {
 th:nth-child(5) a {
     color: rgb(37, 12, 219);
 }
+
+
+.list {
+    display: flex;
+}
+li:last-child  {
+    color: red;
+}
+li:first-child  {
+    color: rgb(195, 0, 255);
+}
+li:nth-child(2n+2) {
+    color: rgb(255, 0, 191);
+}
+ul:nth-child(even) {
+    color: rgb(98, 255, 0);
+}
+li:last-of-type {
+    background-color: rgb(69, 195, 34);
+}
+
+
+ul li:nth-child(2) {
+    background-color: rgb(233, 237, 22);
+}
+li:nth-child(3) {
+    text-shadow: 2px 3px 5px blue;
+}
+th:nth-child(3) a {
+    color: red;
+}
+h2:nth-child(5) {
+    color: rgb(37, 12, 219);
+}
+h2:first-child {
+    color: aquamarine;
+}
+h2:nth-child(9) {
+    color: rgb(255, 0, 0);
+}
